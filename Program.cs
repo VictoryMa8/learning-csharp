@@ -14,3 +14,14 @@ foreach (var pallet in pallets)
 {
     Console.WriteLine($"{pallet}");
 }
+
+// Array.Clear() eliminates the contents of specific elements in the array
+// It replaces them with the array's default value (i.e. null for strings, 0 for ints)
+Array.Clear(pallets, 0, 2);
+Console.WriteLine("Clearing");
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+// Array.Resize() allows us to add or remove elements from our array
