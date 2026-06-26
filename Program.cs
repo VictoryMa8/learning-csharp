@@ -1,27 +1,17 @@
-﻿string[] pallets = [ "B14", "A11", "B12", "A13" ];
+﻿string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
 
-Console.WriteLine("Sorted...");
-Array.Sort(pallets); // We sort the array alphanumerically
+string[] items = orderStream.Split(",");
+Array.Sort(items);
 
-foreach (var pallet in pallets) 
+foreach (string item in items)
 {
-    Console.WriteLine($"-- {pallet}");
+    if (item.Length != 4)
+    {
+        Console.WriteLine($"{item} \t- Error");
+    }
+    else
+    {
+        Console.WriteLine(item);
+    }
+    
 }
-
-Array.Reverse(pallets);
-Console.WriteLine("Reversed");
-foreach (var pallet in pallets)
-{
-    Console.WriteLine($"{pallet}");
-}
-
-// Array.Clear() eliminates the contents of specific elements in the array
-// It replaces them with the array's default value (i.e. null for strings, 0 for ints)
-Array.Clear(pallets, 0, 2);
-Console.WriteLine("Clearing");
-foreach (var pallet in pallets)
-{
-    Console.WriteLine($"-- {pallet}");
-}
-
-// Array.Resize() allows us to add or remove elements from our array

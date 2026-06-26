@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/victoryma/Repositories/c-sharp-project-2/c-sharp-project-2.csproj": {}
+    "/Users/victoryma/Repositories/learning-csharp/c-sharp-project-2.csproj": {}
   },
   "projects": {
-    "/Users/victoryma/Repositories/c-sharp-project-2/c-sharp-project-2.csproj": {
+    "/Users/victoryma/Repositories/learning-csharp/c-sharp-project-2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/victoryma/Repositories/c-sharp-project-2/c-sharp-project-2.csproj",
+        "projectUniqueName": "/Users/victoryma/Repositories/learning-csharp/c-sharp-project-2.csproj",
         "projectName": "c-sharp-project-2",
-        "projectPath": "/Users/victoryma/Repositories/c-sharp-project-2/c-sharp-project-2.csproj",
+        "projectPath": "/Users/victoryma/Repositories/learning-csharp/c-sharp-project-2.csproj",
         "packagesPath": "/Users/victoryma/.nuget/packages/",
-        "outputPath": "/Users/victoryma/Repositories/c-sharp-project-2/obj/",
+        "outputPath": "/Users/victoryma/Repositories/learning-csharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/victoryma/.nuget/NuGet/NuGet.Config"
