@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stack Quest</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo" onclick="showMap()">⚔️ Stack<span>Quest</span></div>
+      <div class="hud">
+        <div class="pill coins" id="hud-coins">🪙 0</div>
+        <div class="pill" id="hud-level">Lv 1 · Intern</div>
+        <div class="lvlwrap">
+          <div class="xpbar-outer">
+            <div class="xpbar-inner" id="hud-xpbar" style="width:0%"></div>
+          </div>
+          <small id="hud-xp">0 XP</small>
+        </div>
+      </div>
+    </header>
+    <main id="app"></main>
+  </div>
+  <script src="questions.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
